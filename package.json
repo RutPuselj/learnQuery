@@ -1,0 +1,16 @@
+{
+  "scripts": {
+    "test": "karma start karma.conf.js",
+    "test:ci": "NODE_ENV=ci karma start karma.conf.js"
+  },
+  "dependencies": {
+    "babel-eslint": "^7.2.3",
+    "eslint": "^4.1.1",
+    "jasmine-core": "^2.6.1",
+    "jshint": "^2.9.5",
+    "karma": "^1.6.0",
+    "karma-chrome-launcher": "^2.0.0",
+    "karma-cli": "^1.0.1",
+    "karma-jasmine": "^1.1.0"
+  }
+}
